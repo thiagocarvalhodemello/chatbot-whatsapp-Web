@@ -10,8 +10,8 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(10)
 
 #Definir Grupos / Contatos e mensagens a ser enviadas
-contatos = ['Comprovantes e Boletos']
-mensagem = ['Olá sou um bot de teste']
+contatos = ['NOME_GRUPO','NOME_CONTATO']
+mensagem = ['MENSAGEM A SER ENVIADA']
 
 #Buscar Contatos/Grupos
 def buscar_contato(contato):
